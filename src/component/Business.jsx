@@ -4,9 +4,9 @@ import Send from "../assets/send.png";
 
 export default function Business(){
     return(
-        <section className="md:flex justify-around md:w-10/12 pt-20 md:ml-20 md:space-x-20 ml-5">
-            <div className="pt-8 md:space-y-7 space-y-12">
-                <h2 className="w-10/12 text-5xl md:font-bold font-semibold text-white">
+        <section className="container justify-around pt-20 ml-5 md:flex md:w-10/12 md:ml-20 md:space-x-20">
+            <div className="pt-8 space-y-12 md:space-y-7">
+                <h2 className="w-10/12 text-5xl font-semibold text-white md:font-bold">
                    You do the business, we’ll handle the money.
                 </h2>
                 <p className="w-9/12 text-xl font-medium text-textColor">
@@ -17,7 +17,7 @@ export default function Business(){
                 </button>
             </div>
             
-            <div className="space-y-10 md:mr-96 md:pt-0 pt-20">
+            <div className="pt-20 space-y-10 md:mr-96 md:pt-0">
                 <div className="flex space-x-5 Business">
                     <img src={Star} alt="Star" className="pt-5 ml-2 h-14" />
                     <div className="pt-1">

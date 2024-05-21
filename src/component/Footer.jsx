@@ -6,7 +6,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 export default function Footer(){
     return(
-        <footer className="w-[1400px] h-[418px]">
+        <footer className="w-[1400px] h-[418px] container">
          <div className="pt-20 space-y-10 md:ml-20 md:flex md:space-x-36 md:space-y-0">
             
              <div className="ml-5 space-y-8 md:ml-0">

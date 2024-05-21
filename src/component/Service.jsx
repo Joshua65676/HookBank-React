@@ -1,7 +1,7 @@
 
 export default function Service(){
     return(
-        <section className="mt-20 md:ml-20 Service">
+        <section className="container mt-20 md:ml-20 Service">
           <div className="pt-16 ml-5 md:justify-between md:flex">
             <div className="space-y-10 md:w-10/12 md:ml-32">
                 <h2 className="text-5xl font-bold text-white">Let’s try our service now!</h2>

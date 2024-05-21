@@ -7,7 +7,7 @@ import { projectsData } from "../constants";
 
 export default function People(){
     return(
-        <section className="pt-32 space-y-20 md:ml-20">
+        <section className="container pt-32 space-y-20 md:ml-20">
             <div className="justify-around ml-3 space-y-10 md:w-9/12 md:ml-20 md:flex md:space-x-52 md:space-y-0">
                 <h2 className="text-5xl font-medium text-white md:font-bold">What people are saying about us</h2>
                 <p className="pt-5 text-xl font-semibold text-textColor">

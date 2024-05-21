@@ -4,7 +4,7 @@ import GooglePlay from '../assets/google-play.png';
 
 export default function Billing(){
     return(
-        <section className="flex flex-col-reverse pt-20 md:flex md:w-10/12 md:justify-around md:ml-20 md:space-x-40 md:flex-row">
+        <section className="container flex flex-col-reverse pt-20 md:flex md:w-10/12 md:justify-around md:ml-20 md:space-x-40 md:flex-row">
             <div className="">
                 <img src={Paypal} alt="Paypal" />
             </div>

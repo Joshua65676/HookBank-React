@@ -5,7 +5,7 @@ import Dropbox from "../assets/dropbox.png";
 
 export default function Logo(){
     return(
-        <section className="w-[200px] md:ml-44 pt-10 ml-20">
+        <section className="w-[200px] md:ml-44 pt-10 ml-20 container">
             <div className="pt-10 space-y-20 md:space-x-20 md:flex md:space-y-0">
                 <img src={Airbnb} alt="" />
                 <img src={Binance} alt="" />
