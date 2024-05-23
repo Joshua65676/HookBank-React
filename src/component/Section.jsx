@@ -43,12 +43,12 @@ export default function Main(){
           <div className="w-full pt-10 pb-10 md:pt-0 md:pb-0 md:w-full">
             <img src={Robot} alt="robot" className="-ml-10 md:w-full md:-ml-0"/>
           </div>
-              <div className=" Circle Parent md:hidden">
+               <div className=" Circle Parent md:hidden">
                  <div className="flex pt-10 GetStarted">
-                  <span className="ml-8 -mb-5 text-transparent bg-clip-text bg-gradient-to-br from-blue-100 via-blue-300 to-blue-600"> Get Started </span>
-                  <img src={Arrow} alt="arrow" className="-ml-5 mr-80"/>
+                   <span className="ml-8 -mb-5 text-transparent bg-clip-text bg-gradient-to-br from-blue-100 via-blue-300 to-blue-600"> Get Started </span>
+                   <img src={Arrow} alt="arrow" className="-ml-5 mr-80"/>
                  </div>
-               </div>
+                </div>
         </section>
     )
 }

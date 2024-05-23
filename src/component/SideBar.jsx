@@ -17,11 +17,11 @@ export default function SideBar() {
         <nav className={open ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSideBar}>
            <li className='navbar-toggle'>
-            <a href="#" className='Menu-Bars text-textColor'>
-              <AiOutlineClose />
+            <a href="#" className=' Menu-Bars text-textColor'>
+              <AiOutlineClose className="ml-5" />
             </a>
            </li>
-           <li className="font-bold nav-text">
+           <li className="mr-10 space-y-6 font-bold nav-text">
              <a className="text-textColor"  href="#">Home</a>
              <a className="text-textColor"  href="#">About Us</a>
              <a className="text-textColor"  href="#">Features</a>
