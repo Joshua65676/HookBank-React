@@ -1,7 +1,7 @@
 
 export default function Active(){
     return(
-       <div className="container pt-20 ml-5 space-y-10 md:flex md:pt-10 md:ml-20 md:space-x-20 md:space-y-0">
+       <div className="pt-20 ml-5 space-y-10 md:flex md:pt-10 md:ml-28 md:space-x-20 md:space-y-0">
          <div className="space-x-5">
             <span className="text-4xl font-bold text-white">3800+</span>
             <span className="text-xl text-transparent md:text-2xl bg-clip-text bg-gradient-to-br from-blue-100 via-blue-300 to-blue-600">User Active</span>

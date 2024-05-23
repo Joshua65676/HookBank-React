@@ -5,7 +5,7 @@ import Robot from "../assets/robot.png";
 
 export default function Main(){
     return(
-        <section className="container justify-around pt-20 space-x-10 sm:flex">
+        <section className="justify-around pt-20 space-x-10  md:flex">
           <div className="w-full pt-20 ml-20 space-y-20">
             <div className="flex -mb-10 -ml-12 rounded-lg w-80 md:w-7/12 md:h-10 md:ml-0 bg-brightBlack">
                <div className="pt-2 md:pt-0"> <img src={Discount} alt="discount logo" className="ml-5 md:h-8 md:pt-2 h-9" /> </div>
@@ -18,7 +18,7 @@ export default function Main(){
             </div>
             <div className="md:flex" >
                 
-              <h1 className="w-11/12 space-y-10 text-5xl font-semibold text-white md:font-bold md:text-7xl -ml-14 md:ml-0 md:-mr-10">
+              <h1 className="w-11/12 space-y-10 text-[42.55px] font-bold text-white md:font-bold md:text-7xl -ml-14 md:ml-0 md:-mr-10">
                 The Next
                 <div className="pt-5 pb-5 text-transparent bg-clip-text bg-gradient-to-br from-blue-100 via-blue-300 to-blue-600"> Generation </div>
                 Payment Method.
@@ -40,8 +40,8 @@ export default function Main(){
             
           </div>
           
-          <div className="w-11/12 pt-10 pb-10 md:pt-0 md:pb-0 md:w-9/12">
-            <img src={Robot} alt="robot" className="-ml-10 md:w-full md:-ml-20"/>
+          <div className="w-full pt-10 pb-10 md:pt-0 md:pb-0 md:w-full">
+            <img src={Robot} alt="robot" className="-ml-10 md:w-full md:-ml-0"/>
           </div>
               <div className=" Circle Parent md:hidden">
                  <div className="flex pt-10 GetStarted">
