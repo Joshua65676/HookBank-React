@@ -6,12 +6,12 @@ export default {
   ],
   theme: {
     screens: {
-      xs: "480px",
-      ss: "620px",
-      sm: "768px",
-      md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+    xs: "480px",
+    ss: "620px",
+    sm: '768px',
+    md: '1060px',
+    lg: '1200px',
+    xl: '1440px',
     },
     extend: {
       colors: {
@@ -22,3 +22,15 @@ export default {
   },
   plugins: [],
 }
+
+// xs: "480px",
+// ss: "620px",
+// sm: "768px",
+// md: "1060px",
+// lg: "1200px",
+// xl: "1700px",
+
+// sm: '480px',
+// md: '768px',
+// lg: '976px',
+// xl: '1440px',
