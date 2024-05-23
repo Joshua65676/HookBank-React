@@ -10,14 +10,14 @@ export default function SideBar() {
 
     return(
      <div className="md:hidden focus:outline-none">
-        <a href="" className="menu-bars text-textColor">
+        <a href="#" className="menu-bars text-textColor">
           <AiOutlineMenu onClick={showSideBar}/>
         </a>
         {/* navBarMenu */}
         <nav className={open ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSideBar}>
            <li className='navbar-toggle'>
-            <a href="" className='Menu-Bars text-textColor'>
+            <a href="#" className='Menu-Bars text-textColor'>
               <AiOutlineClose />
             </a>
            </li>

@@ -17,7 +17,7 @@ export default function Footer(){
            <div className="pt-5 ml-5 space-y-5 md:flex md:space-x-28 md:ml-0 md:space-y-0">
             
              <div className="space-y-3">
-                <h5 className="font-bold text-white">Usefull Links</h5>
+                <h5 className="font-bold text-footerColor">Usefull Links</h5>
                 <div className="space-y-3">
                     <a href="" > <p className="font-bold text-textColor NavBar">Content </p> </a>
                     <a href="" > <p className="font-bold text-textColor NavBar">How it Works </p> </a>
@@ -28,7 +28,7 @@ export default function Footer(){
              </div>
 
              <div className="space-y-3">
-                <h5 className="font-bold text-white">Community</h5>
+                <h5 className="font-bold text-footerColor">Community</h5>
                 <div className="space-y-3">
                     <a href="" > <p className="font-bold text-textColor NavBar"> Help Center </p> </a>
                     <a href="" > <p className="font-bold text-textColor NavBar"> Partners </p> </a>
@@ -39,7 +39,7 @@ export default function Footer(){
              </div>
 
              <div className="space-y-3">
-                <h5 className="font-bold text-white">Partner</h5>
+                <h5 className="font-bold text-footerColor">Partner</h5>
                 <div className="">
                     <a href="" > <p className="font-bold text-textColor NavBar"> Our Partner </p> </a>
                     <a href="" > <p className="font-bold text-textColor NavBar"> Become a Partner </p> </a>
@@ -59,10 +59,10 @@ export default function Footer(){
               </p>
 
               <div className="flex ml-20 space-x-2 md:mr-24 md:ml-0">
-                <a href=""> <FaInstagram className="w-10 h-10 text-white"/> </a>
-                <a href=""> <PiFacebookLogoBold className="w-10 h-10 text-white"/> </a>
+                <a href=""> <FaInstagram className="w-10 h-10 text-red-500"/> </a>
+                <a href=""> <PiFacebookLogoBold className="w-10 h-10 text-blue-600"/> </a>
                 <a href=""> <RiTwitterXFill className="w-10 h-10 text-white"/> </a>
-                <a href=""> <CiLinkedin className="w-10 h-10 text-white"/> </a>
+                <a href=""> <CiLinkedin className="w-10 h-10 text-blue-500"/> </a>
               </div>
 
             </div>

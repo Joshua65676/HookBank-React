@@ -17,6 +17,7 @@ export default {
       colors: {
         brightBlack: 'rgba(39, 38, 40, 255)',
         textColor: 'rgba(107, 106, 112, 255)',
+        footerColor: 'rgba(167, 235, 237, 255)'
       }
     },
   },

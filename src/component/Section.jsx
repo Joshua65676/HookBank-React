@@ -5,7 +5,7 @@ import Robot from "../assets/robot.png";
 
 export default function Main(){
     return(
-        <section className="justify-around pt-20 space-x-10  md:flex">
+        <section className="justify-around pt-20 space-x-10 md:flex">
           <div className="w-full pt-20 ml-20 space-y-20">
             <div className="flex -mb-10 -ml-12 rounded-lg w-80 md:w-7/12 md:h-10 md:ml-0 bg-brightBlack">
                <div className="pt-2 md:pt-0"> <img src={Discount} alt="discount logo" className="ml-5 md:h-8 md:pt-2 h-9" /> </div>
@@ -24,7 +24,7 @@ export default function Main(){
                 Payment Method.
               </h1>
                
-               <div className="hidden md:flex md:-ml-48 Circle Parent">
+               <div className="hidden md:flex md:-ml-32 Circle Parent">
                  <div className="flex pt-10 GetStarted">
                   <span className="ml-8 -mb-5 text-transparent bg-clip-text bg-gradient-to-br from-blue-100 via-blue-300 to-blue-600"> Get Started </span>
                   <img src={Arrow} alt="arrow" className="h-6 pt-1 -ml-5 mr-80"/>
